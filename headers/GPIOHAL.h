@@ -86,7 +86,7 @@ typedef struct GPIO_HANDLE
 
 typedef enum
 {
-    GPIO_OUTPUT_DEFUALT,
+    GPIO_OUTPUT_DEFAULT,
 } GPIO_OUTPUT_CONFIG;
 
 typedef void (*InterruptCallback)(void *param);
